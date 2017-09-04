@@ -1,0 +1,265 @@
+html {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    margin: 0;
+    padding: 0;
+    background: url("http://zupimages.net/up/17/10/2iwh.jpg") no-repeat center;
+    background-size: cover;
+   
+}
+
+body {
+    text-align: center;
+    margin: 0 auto;
+    background: url("http://zupimages.net/up/17/10/char.jpg") no-repeat center fixed;
+    background-size: cover;
+}
+
+h1 {
+    margin: 0;
+    padding: 65px 0 0 0;
+    font-family: Paytone One, sans-serif;
+    font-size: 75px;
+    color: #FF8000;
+    text-shadow: 2px 2px 0 black;
+}
+
+
+.h2head {
+    margin: 0;
+    padding: 0 0 50px 0;
+    font-family: Clicker Script, sans-serif;
+    font-size: 30px;
+    color: #FF8000;
+    text-shadow: 1px 1px 0 black;
+}
+
+.globe {
+    max-height: 200px;
+    max-width: 200px;
+    padding: 20px 0 50px 0;
+}
+
+li {
+    display: inline;
+    padding: 10px;
+    font-family: Courgette, sans-serif;
+}
+
+ul {
+    padding: 8px;
+    background: black;
+}
+
+button {
+    font-size: 17px;
+    font-family: Paytone One, sans-serif;
+    background-color: lightblue;
+    color: #FF8000;
+    text-shadow: 1px 1px 0 black;
+}
+
+ul .head {
+    padding: 15px;
+}
+
+.h2stars {
+    margin: 60px 0 20px 0;
+    font-size: 45px;
+    font-family: Cantarell, sans-serif;
+    color: lightblue;
+    text-shadow: 1px 1px 0 black;
+}
+
+.starsQuote {
+    margin: 40px 0 40px 0;
+    font-family: Courgette, sans-serif;
+    color: #FF8000;
+    text-shadow: 1px 1px 0 black;
+}
+
+.starsQuote1 {
+	font-style: oblique;
+}
+
+.smallPresentation {
+    margin: 20px auto;
+    text-align: justify;
+    max-width: 1000px;
+    font-family: Paytone One, sans-serif;
+    color: lightblue;
+    text-shadow: 1px 1px 0 black;
+}
+
+.clown {
+    max-height: 40px;
+    max-width: 40px;
+    margin: 30px auto;
+}
+
+h3 {
+    margin: 30px 0 50px 0;
+    font-family: Cantarell, sans-serif;
+    color: #FF8000;
+    text-shadow: 1px 1px 0 black;
+}
+
+div {
+    margin: 100px auto;
+    height: 260px;
+    max-width: 1100px;
+    position: relative;
+    background-size: cover;
+    border-radius: 20px;
+}
+
+div p {
+    text-align: justify;
+    position: absolute;
+    bottom: 0;
+    margin: 0;
+    padding: 10px;
+    height: 30px;
+    border-radius: 0 0 20px 20px;
+    font-size: 20px;
+    font-family: Paytone One, sans-serif;
+    color: lightblue;
+    background-color: rgba(0, 0, 0, 0.6);
+    transition: height .5s;
+    -webkit-transition: height .5s;
+    -moz-transition: height .5s;
+    -o-transition: height .5s;
+}
+
+small {
+    opacity: 0;
+}
+
+.first {
+    background: url("http://zupimages.net/up/17/10/2k2h.png") no-repeat center;
+}
+
+.second {
+    background: url("http://zupimages.net/up/17/10/zwji.png") no-repeat center;
+}
+
+.third {
+    background: url("http://zupimages.net/up/17/10/sayl.png") no-repeat center;
+    margin-bottom: 75px;
+}
+
+.lastP {
+    font-family: Paytone One, sans-serif;
+    color: #FF8000;
+    text-shadow: 1px 1px 0 black;
+    font-size: 20px;
+    padding-bottom: 300px;
+}
+
+.foot {
+    border: solid 2px black;
+    margin: 0;
+}
+
+.showDescription p {
+    height: 110px;
+}
+
+.showDescription small {
+    opacity: 1;
+}
+
+
+@media (max-width: 700px) {
+    
+    h1 {
+        font-size: 50px;
+        padding: 35px 0 0 0;
+    }
+    
+    .h2head {
+        font-size: 27px;
+        padding: 0 0 10px 0;
+    }
+    
+    .globe {
+        max-height: 100px;
+        max-width: 100px;
+        padding: 10px 0 20px 0;
+    }
+    
+    li {
+        display : inline;
+        padding: 1px;
+    }
+    
+    ul {
+        background: rgba(0, 0, 0, 0.9);
+    }
+    
+    button {
+        font-size: 10px;    
+    }
+    
+    .h2stars {
+        margin: 30px 0 10px 0;
+        font-size: 35px;
+    }
+    
+    .starsQuote {
+        margin: 30px 0 30px 0;
+        font-size: 17px;
+        max-width: 300px;
+        margin: 30px auto;
+    }
+    
+    .smallPresentation {
+        margin: 20px auto;
+        font-size: 15px;
+        max-width: 300px;
+    }
+    
+    .clown {
+        margin: 15px auto;
+    }
+    
+    h3 {
+        margin: 20px auto 30px auto;
+        font-size: 20px;
+        max-width: 300px;
+    }
+    
+    div {
+        margin: 50px auto;
+        max-width: 350px;
+    }
+    
+    div p {
+        padding: 1px;
+        height: 40px;
+        line-height: 20px;
+        font-size: 20px;
+    }
+    
+    small {
+        font-size: 15px;
+    }
+    
+    .third {
+        margin-bottom: 30px;
+        background : url("http://zupimages.net/up/17/10/dj1a.jpg") no-repeat center;
+    }
+    
+    .lastP {
+	    font-size: 15px;
+        max-width: 300px;
+        margin: 0 auto;
+        padding-bottom: 150px;    
+    }
+    
+    .showDescription p {
+	    height: 160px;
+}
